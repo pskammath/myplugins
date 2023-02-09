@@ -1,6 +1,7 @@
 name: sib
 description: Search Input Bar.
 version: 0.0.1
+homepage: Searchbar
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
