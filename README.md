@@ -11,29 +11,37 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: SearchInputBar is a flutter widget for implementing customized Search Bar 
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+TODO: Add prefix and suffix icon.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+TODO: You can add this widget to your flutter project. It will run Android, iOS and Web.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+TODO: 
 
 ```dart
-const like = 'sample';
+              SearchInput(
+                  suffixIcon : Icon(
+                                    
+                                Icons.close,
+                                size: 20,
+                                color : ColorTheme.buttonColorgreen,
+                                  ),
+                  prefixIcon:  Icon(
+                                      Icons.search_rounded,
+                                      size: 30,
+                                      color: ColorTheme.buttonColorgreen,
+                                    ),
+                  placeHolder : "Search",
+                  controller : searchInputController
+                                );
+
 ```
 
-## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
